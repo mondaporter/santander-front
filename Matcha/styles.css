@@ -19,3 +19,61 @@ button {
     color: #fff;
     background-color: #025157;
 }
+/* Características para una clase. Fontsize = 0 para reducir espacios de separación*/
+.header {
+    margin: 40px 20px 0px 20px;
+    font-size: 0;
+    font-family: sans-serif;
+    line-height: 45px;
+  }
+  
+  li {
+      display: inline;
+  }
+
+/* Determinar características a los hijos de header, donde se establece la fuente que buscamos */
+  .header > * {
+      display: inline-block;
+      font-size: 16px;
+      vertical-align: middle;
+      height: 100%;
+      line-height: 45px;
+  }
+
+  .logo {
+      width: 15%;
+  }
+
+  .navbar {
+      width: 70%;
+      text-align: left;
+      color: #025157;
+  }
+
+  .navitem {
+      margin-left: 25px;
+      margin-right: 25px;
+  }
+
+  .actions {
+      width: 15%;
+      text-align: left;
+      font-size: 14px;
+  }
+
+  .actions > * {
+      margin-right: 10px;
+      margin-left: 10px;
+  }
+
+  .actions a {
+      color: #67b54b;
+  }
+
+  .actions button {
+      color: white;
+      background-color: #67b54b;
+      padding: 12px 14px 12px 14px;
+      border: 0;
+      border-radius: 5px;
+  }

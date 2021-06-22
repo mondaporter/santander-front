@@ -77,3 +77,59 @@ button {
       border: 0;
       border-radius: 5px;
   }
+
+/* Width ajusta un ancho menor que toda la pantalla.
+margin auto centra de forma automática */
+.Promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.Advert h2 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 40px;
+      color: #025157;
+  }
+.Advert p {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #343434;
+}
+.Advert > form {
+    display: flex;
+}
+
+.Advert form > p {
+    color: #025157;
+    margin-right: 18px;
+    margin-top: 10px;
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+/* Decirle al contenido que debe estar en la parte superior, en el borde izquierdo
+y use todo el ancho, extendíendose al borde derecho */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
+
+body {
+    margin-top: 185px;
+  }
+  

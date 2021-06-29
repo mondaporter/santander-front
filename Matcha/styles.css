@@ -345,6 +345,32 @@ body {
     h1 {
         font-size: 20px;
     }
+    main {
+        margin-top: -94px;
+    }
+    .banner > img {
+        width: 100%;
+    }
+
+    .publish > form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .Promo {
+        flex-direction: column;
+        max-width: 90%;
+    }
+    .explanatory-video > video {
+        width: 100%;
+    }
+    .Promo {
+        margin-top: 25px;
+    }
+    .features {
+        grid-template: repeat(4, 1fr) / 1fr;
+    }
 
 }
 
